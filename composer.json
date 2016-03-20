@@ -1,0 +1,24 @@
+{
+    "name": "makao/lpsolve",
+    "description": "LPSolve extension as simple PHP library",
+    "keywords": ["linear, programming, solver, solve, simplex, math, php"],
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "ext-lpsolve": ">=5.5.0.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "makao",
+            "email": "makao@makao.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "makao\\LPSolve\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "makao\\LPSolve\\Tests\\": "tests/" }
+    }
+}
