@@ -1,7 +1,7 @@
 {
     "name": "makao/lpsolve",
     "description": "LPSolve extension as simple PHP library",
-    "keywords": ["linear, programming, solver, solve, simplex, math, php"],
+    "keywords": ["linear", "programming", "solver", "solve", "simplex", "math", "php"],
     "type": "library",
     "require": {
         "php": ">=5.6",
